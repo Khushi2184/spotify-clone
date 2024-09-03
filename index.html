@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Spotify</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Your Library</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="header">
+            <input type="text" placeholder="Search for Songs, Artists..." id="search">
+        </div>
+        <div class="content">
+            <h3>Recently Played</h3>
+            <div class="card-container">
+                <!-- Add music cards here -->
+                <div class="card">
+                    <img src="album1.jpg" alt="Album Art">
+                    <p>Song Title 1</p>
+                </div>
+                <div class="card">
+                    <img src="album2.jpg" alt="Album Art">
+                    <p>Song Title 2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="music-player">
+        <div class="player-controls">
+            <button>Prev</button>
+            <button>Play</button>
+            <button>Next</button>
+        </div>
+        <div class="song-info">
+            <p>Now Playing: Song Title</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
